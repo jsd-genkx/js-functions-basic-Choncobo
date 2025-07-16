@@ -15,6 +15,33 @@ Task 02: Check Even or Odd
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
 
+/* fn declaretion
+function checkEvenOrOdd(number) {
+    if (number % 2 === 0) {
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
+*/
+
+/* fn expression
+const checkEvenOrOdd = function(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+*/
+
+const checkEvenOrOdd = (number) => {
+    if (number % 2 === 0) {
+        return "Even"
+    } else
+        return "Odd"
+}
+
 // Example Test Cases
 console.log(checkEvenOrOdd(4)); // "Even"
 console.log(checkEvenOrOdd(9)); // "Odd"
